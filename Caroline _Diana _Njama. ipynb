@@ -1,0 +1,18 @@
+
+import numpy as np
+import pandas as pd
+inventory = [
+    {"product": "Notebook", "category": "Stationery", "price": 1500, "quantity": 40},
+    {"product": "Pen", "category": "Stationery", "price": 200, "quantity": 120},
+    {"product": "Backpack", "category": "Bags", "price": 12000, "quantity": 15},
+    {"product": "Water Bottle", "category": "Drinkware", "price": 2500, "quantity": 0},
+    {"product": "Laptop Sleeve", "category": "Bags", "price": 6500, "quantity": 8},
+    {"product": "Highlighter Set", "category": "Stationery", "price": 1800, "quantity": None},
+    {"product": "Coffee Mug", "category": "Drinkware", "price": 3000, "quantity": 22},
+    {"product": "USB Flash Drive", "category": "Electronics", "price": 4500, "quantity": 12},
+    {"product": "Earphones", "category": "Electronics", "price": 7000, "quantity": 5},
+    {"product": "Pen", "category": "Stationery", "price": 200, "quantity": 120},
+    {"product": "Desk Lamp", "category": "Electronics", "price": 9500, "quantity": 6},
+]
+prices = {"Notebook": 1500, "Pen": 200, "Backpack": 12000, "Water Bottle": 2500}
+daily_sales = np.array([220, 250, 240, 230, 260, 300, 310, 235, 245, 255, 240, 265, 980, 320]
